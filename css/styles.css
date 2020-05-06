@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  margin: 0 165px 0;
 }
 
 header{
@@ -30,10 +31,14 @@ header{
   letter-spacing: 1.3px;
 }
 
-.header__title--bold{
+.header__title--bold {
   font-weight: 600;
 }
 
+.header__subtitle {
+  margin: 18px 0 64px;
+  width: 508px;
+}
 
 .cards {
   display: flex;
@@ -46,16 +51,16 @@ header{
   flex-direction: column;
   width: 350px;
   height: 250px;
+  margin: 0 15px 0;
   border: 1px solid var(--very-light-gray);
   border-radius: 5px;
-}
-
-.card__item .team_builder {
-  border-top: 2px solid var(--red);
+  padding: 30px;
 }
 
 .card__item__header {
   color: var(--very-dark-blue);
+  font-size: 20px;
+  font-weight: 600;
 }
 
 footer {
