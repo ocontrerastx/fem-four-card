@@ -16,7 +16,6 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  margin: 0 165px 0;
 }
 
 header{
@@ -43,7 +42,8 @@ header{
 .cards {
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
+  align-items: center;
+  width: 90vw;
 }
 
 .card__item {
@@ -51,10 +51,28 @@ header{
   flex-direction: column;
   width: 350px;
   height: 250px;
-  margin: 0 15px 0;
+  margin: 15px;
   border: 1px solid var(--very-light-gray);
   border-radius: 5px;
   padding: 30px;
+  box-shadow: 5px 10px 45px -30px var(--grayish-blue);
+  /* box-shadow: 5px 10px 45px -32px rgb(30, 105, 190); */
+}
+
+.supervisor {
+  border-top: 4px solid var(--cyan);
+}
+
+.team-builder {
+  border-top: 4px solid var(--red);
+}
+
+.karma {
+  border-top: 4px solid var(--orange);
+}
+
+.calculator {
+  border-top: 4px solid var(--blue);
 }
 
 .card__item__header {
