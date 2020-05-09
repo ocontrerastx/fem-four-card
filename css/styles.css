@@ -18,13 +18,14 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  background-color: #FAFAFA;
 }
 
 header{
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 75px;
   max-width: 510px;
 }
 
@@ -40,7 +41,7 @@ header{
 }
 
 .header__subtitle {
-  margin: 18px 0 50px;
+  margin: 18px 0 55px;
 }
 
 .card__container {
@@ -61,7 +62,7 @@ header{
   border: 1px solid var(--very-light-gray);
   border-radius: 5px;
   padding: 28px;
-  box-shadow: 5px 10px 45px -30px var(--grayish-blue);
+  box-shadow: 5px 10px 45px -30px var(--very-dark-blue);
 }
 
 .supervisor {
