@@ -25,6 +25,7 @@ header{
   flex-direction: column;
   text-align: center;
   margin-top: 80px;
+  max-width: 510px;
 }
 
 .header__title {
@@ -118,10 +119,11 @@ footer {
     margin: 18px 0 50px;
     padding: 0 40px 0;
   }
+}
 
+@media only screen and (max-width: 380px) {
   .card__item {
     height: auto;
     width: auto;
-    margin: 15px 30px 15px;
   }
 }
